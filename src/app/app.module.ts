@@ -10,7 +10,9 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 import {ProductService} from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import {RouterModule, Routes} from '@angular/router';
 
+const appRoutes[]:Routes; 
 
 @NgModule({
   declarations: [
@@ -28,4 +30,6 @@ import { ProductListComponent } from './product-list/product-list.component';
   providers: [ProductService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
