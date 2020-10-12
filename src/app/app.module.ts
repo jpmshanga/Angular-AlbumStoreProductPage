@@ -13,7 +13,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import {RouterModule, Routes} from '@angular/router';
 
 const appRoutes:Routes=[
-{path: 'Products', component: ProductListComponent},
+{path: 'products', component: ProductListComponent},
 
 
 
